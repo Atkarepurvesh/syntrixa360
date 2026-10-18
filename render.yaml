@@ -1,0 +1,26 @@
+# Render Blueprint for the FastAPI backend (demo-booking + Brevo email).
+# No database is needed: this API does not persist bookings (see backend/README.md).
+services:
+  - type: web
+    name: syntrixa360-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.5
+      - key: APP_ENV
+        value: production
+      - key: CORS_ORIGINS        # exact Vercel/custom frontend origin(s), comma-separated, no trailing slash
+        sync: false
+      - key: BREVO_API_KEY       # secret
+        sync: false
+      - key: BREVO_SENDER_EMAIL  # must be a sender/domain verified in Brevo
+        sync: false
+      - key: BREVO_SENDER_NAME
+        value: Syntrixa360 Website
+      - key: DEMO_NOTIFICATION_TO
+        value: support@syntrixa360.com

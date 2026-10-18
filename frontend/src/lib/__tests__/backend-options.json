@@ -1,0 +1,146 @@
+{
+ "BUSINESS_TYPES": [
+  "manufacturer",
+  "exporter",
+  "importer",
+  "wholesaler",
+  "distributor",
+  "trader",
+  "service",
+  "manufacturer_exporter",
+  "manufacturer_distributor",
+  "exporter_trader",
+  "other"
+ ],
+ "INDUSTRIES": [
+  "manufacturing",
+  "wholesale_distribution",
+  "export_trade",
+  "import",
+  "agriculture",
+  "food_products",
+  "ayurvedic_herbal",
+  "pharmaceutical",
+  "industrial_products",
+  "fmcg",
+  "textiles",
+  "chemicals",
+  "consumer_products",
+  "other"
+ ],
+ "BUSINESS_MODELS": [
+  "b2b",
+  "b2c",
+  "b2b2c",
+  "wholesale",
+  "distribution",
+  "export",
+  "import",
+  "manufacturing",
+  "service",
+  "mixed"
+ ],
+ "TURNOVER_RANGES": [
+  "below_10l",
+  "10l_50l",
+  "50l_1cr",
+  "1cr_5cr",
+  "5cr_25cr",
+  "25cr_plus"
+ ],
+ "EMPLOYEE_RANGES": [
+  "1-5",
+  "6-10",
+  "11-25",
+  "26-50",
+  "51-100",
+  "101-250",
+  "251-500",
+  "500+"
+ ],
+ "SALES_TEAM_SIZES": [
+  "1-5",
+  "6-10",
+  "11-25",
+  "26-50",
+  "50+"
+ ],
+ "SALES_MARKETS": [
+  "domestic",
+  "international",
+  "both"
+ ],
+ "SALES_REGIONS": [
+  "india",
+  "middle_east",
+  "europe",
+  "north_america",
+  "south_america",
+  "africa",
+  "asia_pacific",
+  "anz",
+  "global"
+ ],
+ "SALES_PROCESS_TYPES": [
+  "direct",
+  "distributor",
+  "wholesale",
+  "export",
+  "inquiry_quote_order",
+  "lead_deal_order",
+  "mixed"
+ ],
+ "CURRENCIES": [
+  "AED",
+  "AUD",
+  "CAD",
+  "EUR",
+  "GBP",
+  "INR",
+  "SGD",
+  "USD"
+ ],
+ "TIMEZONES": [
+  "America/Los_Angeles",
+  "America/New_York",
+  "Asia/Dubai",
+  "Asia/Kolkata",
+  "Asia/Singapore",
+  "Australia/Sydney",
+  "Europe/Berlin",
+  "Europe/London"
+ ],
+ "LANGUAGES": [
+  "ar",
+  "en",
+  "gu",
+  "hi",
+  "mr"
+ ],
+ "DATE_FORMATS": [
+  "DD/MM/YYYY",
+  "MM/DD/YYYY",
+  "YYYY-MM-DD"
+ ],
+ "PRODUCT_CATEGORIES": [
+  "Ayurvedic Products",
+  "Herbal Products",
+  "Food Products",
+  "Agricultural Products",
+  "Industrial Products",
+  "Pharmaceutical Products",
+  "FMCG",
+  "Textiles",
+  "Machinery",
+  "Chemicals"
+ ],
+ "WEEK_DAYS": [
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday"
+ ]
+}
